@@ -32,13 +32,13 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-red-500 via-slate-50 to-blue-800 bg-clip-text text-4xl tracking-tight text-transparent"
             >
-              <Typewriter
+              {/* <Typewriter
                 options={{
                   strings: ["Student", "Intern", "Software Developer"],
                   autoStart: true,
                   loop: true,
                 }}
-              />
+              /> */}
             </motion.span>
             <motion.p
               variants={container(0)}
