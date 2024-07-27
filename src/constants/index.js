@@ -2,6 +2,8 @@ import Portfolio from "../assets/Dn.png";
 import DiceTo100 from "../assets/projects/DiceTo100.png";
 import GuessMyNumber from "../assets/projects/GuessMyNumber.png";
 import MembershipDashboard from "../assets/projects/MembershipDashboard.png";
+import GPLogo from "../assets/projects/GPLogo.png";
+import headstarter from "../assets/projects/headstarter.png";
 
 export const HERO_CONTENT =
   "Danny Nguyen is a Computer Science student at Georgia State University with a passion for software development.";
@@ -10,11 +12,20 @@ export const ABOUT_TEXT = `I am actively seeking hands-on experience through int
 
 export const EXPERIENCES = [
   {
-    year: "June 2023 - Present",
+    year: "June 2024 - Present",
     role: "Software Developer Engineer Intern",
     company: "Gov't Portal",
     description: `Developed new softwares and POS systems for multiple companies which increased the companies revenue by 25%. Delivered a comprehensive Park & Recs management system by collaborating with a team of 4 developers, resulting in a 40% increase in operational efficiency for municipal management.`,
     technologies: ["php", "tailwindcss", "phpMyAdmin", "mySQL", "Git"],
+    image: GPLogo,
+  },
+  {
+    year: "July 2024 - Present",
+    role: "Software Engineer Fellowship",
+    company: "HeadStart.ai",
+    description: `HeadStart.ai is an AI-driven recruitment platform that enhances the hiring process by matching job seekers with employers more effectively through data-driven insights, reducing biases and improving efficiency. It focuses on diversity and inclusion, anonymizing candidate data to prioritize skills and qualifications.`,
+    technologies: ["JS", "HTML", "CSS", "Python", "React", "Git"],
+    image: headstarter,
   },
 ];
 
@@ -27,7 +38,7 @@ export const PROJECTS = [
     technologies: ["HTML", "TailwindCSS", "React"],
   },
   {
-    title: "Managment Dashboard Software",
+    title: "Management Dashboard Software",
     image: MembershipDashboard,
     description:
       "Developed a web-based Membership Management Software using PHP and MySQL with a team of 4 developers, designed to automate registration, renewal, and verification processes. Implemented secure user authentication and QR code generation using TailwindCSS and Endroid QRCode library, enhancing user experience and data protection.",
@@ -43,7 +54,7 @@ export const PROJECTS = [
   {
     title: "Guess My Number",
     image: GuessMyNumber,
-    description: `"Guess My Number!" is a simple number guessing game. The game generates a random secret number between 1 and 20, and the player has to guess the number. `,
+    description: `"Guess My Number!" is a simple number guessing game. The game generates a random secret number between 1 and 20, and the player has to guess the number.`,
     technologies: ["HTML", "CSS", "JavaScript"],
   },
 ];

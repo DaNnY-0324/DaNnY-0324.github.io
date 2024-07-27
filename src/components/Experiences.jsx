@@ -1,5 +1,4 @@
 import { EXPERIENCES } from "../constants";
-import GPLogo from "../assets/GPLogo.png";
 import { motion } from "framer-motion";
 
 const Experiences = () => {
@@ -22,13 +21,11 @@ const Experiences = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              <a
-                href="https://govtportal.us/"
-                target="blank"
-                rel="noopener noreferrer"
-              >
-                <img src={GPLogo} alt="Gov't Portal" />
-              </a>
+              <img
+                src={experience.image}
+                alt={experience.company}
+                className="mb-2 w-full h-20 object-contain"
+              />
               <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
             </motion.div>
             <motion.div

@@ -17,12 +17,6 @@ const Contact = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission (e.g., send the form data to an API or email service)
-    console.log("Form submitted:", formData);
-  };
-
   return (
     <div className="border-b border-neutral-900 pb-20">
       <motion.h1
@@ -60,7 +54,8 @@ const Contact = () => {
         </div>
         <div className="w-full md:w-1/2">
           <form
-            onSubmit={handleSubmit}
+            action="https://formspree.io/f/mdkneovj"
+            method="POST"
             className="max-w-md mx-auto mt-10 md:mt-0"
           >
             <div className="mb-4">
