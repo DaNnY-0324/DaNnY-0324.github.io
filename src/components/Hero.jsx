@@ -25,8 +25,8 @@ const Hero = () => {
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
             >
               Danny Nguyen
-            </motion.h1>
-            <motion.span
+             </motion.h1>
+{/*             <motion.span
               variants={container(0)}
               initial="hidden"
               animate="visible"
@@ -39,7 +39,7 @@ const Hero = () => {
                   loop: true,
                 }}
               />
-            </motion.span>
+            </motion.span> */} 
             <motion.p
               variants={container(0)}
               initial="hidden"
