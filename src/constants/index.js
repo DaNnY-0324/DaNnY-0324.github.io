@@ -6,7 +6,7 @@ import GPLogo from "../assets/projects/GPLogo.png";
 import headstarter from "../assets/projects/headstarter.png";
 
 export const HERO_CONTENT =
-  "Danny Nguyen is a Computer Science student at Georgia State University with a passion for software development.";
+  "I am a dedicated full stack developer from Atlanta, Georgia, with a talent for creating robust and scalable web applications. My goal is to continually develop my skills and knowledge to become a better developer and engineer.";
 
 export const ABOUT_TEXT = `I am actively seeking hands-on experience through internships, startup collaborations, and challenging projects. For me, software engineering is about crafting innovative solutions and addressing real-world problems. As a self-taught developer, I have expanded my technical skills by exploring new technologies and undertaking personal projects. I can work in dynamic environments where creativity and technology intersect and am eager to connect with others to create exceptional solutions. If you are wanting to collab or be in contact, please reach out to me.`;
 

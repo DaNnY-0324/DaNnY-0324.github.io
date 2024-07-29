@@ -25,21 +25,23 @@ const Hero = () => {
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
             >
               Danny Nguyen
-             </motion.h1>
-{/*             <motion.span
-              variants={container(0)}
-              initial="hidden"
-              animate="visible"
-              className="bg-gradient-to-r from-red-500 via-slate-50 to-blue-800 bg-clip-text text-4xl tracking-tight text-transparent"
-            >
-              <Typewriter
-                options={{
-                  strings: ["Student", "Intern", "Software Developer"],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
-            </motion.span> */} 
+            </motion.h1>
+            {
+              <motion.span
+                variants={container(0)}
+                initial="hidden"
+                animate="visible"
+                className="bg-gradient-to-r from-red-500 via-slate-50 to-blue-800 bg-clip-text text-4xl tracking-tight text-transparent"
+              >
+                <Typewriter
+                  options={{
+                    strings: ["Student", "Software Developer", "Intern"],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+              </motion.span>
+            }
             <motion.p
               variants={container(0)}
               initial="hidden"
